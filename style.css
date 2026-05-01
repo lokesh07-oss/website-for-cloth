@@ -110,6 +110,68 @@ footer {
   margin-top: 2rem;
 }
 
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* New header layout */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+.header-left .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+}
+.header-center .search {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.header-right .main-nav a {
+  color: #000;
+  font-weight: 500;
+}
+
+/* CTA button */
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #e53935;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cta-button:hover {
+  background-color: #c62828;
+}
+
+/* Adjust product price class */
+.product .price {
+  font-weight: bold;
+  color: #e53935;
+}
+
 /* Responsive tweaks */
 @media (max-width: 600px) {
   header {
